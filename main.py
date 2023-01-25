@@ -5,6 +5,7 @@ import Gamedata
 change = {}
 
 def get_two_random():
+    """ this function return random two element on a array """
     if change == {}:
         return [Gamedata.data[random.randint(0,len(Gamedata.data)-1)],Gamedata.data[random.randint(0,len(Gamedata.data)-1)]]
     elif change != {}:
